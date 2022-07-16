@@ -13,6 +13,7 @@
 		21FF77312882A33100F04D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FF772F2882A33100F04D40 /* Main.storyboard */; };
 		21FF77332882A33300F04D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FF77322882A33300F04D40 /* Assets.xcassets */; };
 		21FF77362882A33300F04D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FF77342882A33300F04D40 /* LaunchScreen.storyboard */; };
+		21FF773F2882AFC300F04D40 /* FirestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF773E2882AFC300F04D40 /* FirestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21FF77322882A33300F04D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FF77352882A33300F04D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21FF77372882A33300F04D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FF773E2882AFC300F04D40 /* FirestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				21FF77292882A33100F04D40 /* AppDelegate.swift */,
 				21FF772B2882A33100F04D40 /* SceneDelegate.swift */,
 				21FF772D2882A33100F04D40 /* ViewController.swift */,
+				21FF773D2882AFA800F04D40 /* View */,
 				21FF772F2882A33100F04D40 /* Main.storyboard */,
 				21FF77322882A33300F04D40 /* Assets.xcassets */,
 				21FF77342882A33300F04D40 /* LaunchScreen.storyboard */,
 				21FF77372882A33300F04D40 /* Info.plist */,
 			);
 			path = XcodeGenPractice;
+			sourceTree = "<group>";
+		};
+		21FF773D2882AFA800F04D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21FF773E2882AFC300F04D40 /* FirestView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				21FF772E2882A33100F04D40 /* ViewController.swift in Sources */,
 				21FF772A2882A33100F04D40 /* AppDelegate.swift in Sources */,
 				21FF772C2882A33100F04D40 /* SceneDelegate.swift in Sources */,
+				21FF773F2882AFC300F04D40 /* FirestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
